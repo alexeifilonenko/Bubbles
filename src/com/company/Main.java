@@ -24,19 +24,21 @@ public class Main {
         arr = sorter.bubbleSortUp();                        //отсортировал массив и присвоил эти значиния исходному массиву
         System.out.println();
         for(int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);                     //выводим отсортированный массив
+            System.out.println(arr[i]);                     //выводим отсортированный массив по возрастанию
         }
 
         arr = sorter.bubbleSortDown();                      //отсортировал массив и присвоил эти значиния исходному массиву
         System.out.println();
         for(int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);                     //выводим отсортированный массив
+            System.out.println(arr[i]);                     //выводим отсортированный массив по убыванию
         }
         System.out.println();
+
+
         arr = sorter.showMinMaxArr(20, 75);
-        System.out.println();
+
         for(int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);                     //выводим отсортированный массив
+            //System.out.println(arr[i]);                     //выводим отсортированный массив
         }
 
     }
